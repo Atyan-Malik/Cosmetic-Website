@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peace - Cosmetics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"> 
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    body{
+      background-color:pink;
+      user-select: none;
+    }
+  </style>
+</head>
+<body >
+
+
+    <!-- Navbar -->
+  <nav class="bg-pink-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        
+        <!-- Logo -->
+        <!-- <div class="flex-shrink-0 text-5xl font-bold text-pink-400"> -->
+        <p class="flex-shrink-0 text-5xl font-bold text-pink-400">Peace . </p>
+        <!-- </div> -->
+
+        <!-- Links -->
+        <div class="hidden md:flex space-x-8">
+          <a href="#" class="hover:text-white hover:bg-pink-500 px-4 rounded transition text-pink-400 font-bold">Home</a>
+          <a href="About.html" class="hover:text-white hover:bg-pink-500 px-4 rounded transition text-pink-400 font-bold">About</a>
+          <a href="products.html" class="hover:text-white hover:bg-pink-500 px-4 rounded transition text-pink-400 font-bold">Products</a>
+          <a href="contact.html" class="hover:text-white hover:bg-pink-500 px-4 rounded transition text-pink-400 font-bold">Contact</a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+          <button id="menu-btn" class="text-pink-600 focus:outline-none">
+            ☰
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
+      <a href="#" class="block py-2 hover:text-pink-400">Home</a>
+      <a href="#" class="block py-2 hover:text-pink-400">About</a>
+      <a href="#" class="block py-2 hover:text-pink-400">Products</a>
+      <a href="#" class="block py-2 hover:text-pink-400">Contact</a>
+    </div>
+  </nav>
+
+
+   <section class=" py-12">
+  <div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center px-4">
+    
+    <!-- Text Content -->
+    <div class="w-full md:w-1/2 text-center md:text-left">
+      <h1 class="text-4xl md:text-5xl font-bold mb-7 text-pink-500 " data-aos="fade-right" data-aos-delay="200">Glow Naturally with Peace</h1>
+      <p class="text-lg text-pink-700 mb-6" data-aos="fade-right" data-aos-delay="200">
+        Discover pure, skin-loving cosmetics made with love. Peace brings you cruelty-free beauty with natural ingredients and elegant shades.
+      </p>
+      <button id="click" class="inline-block bg-pink-800 text-white px-6 py-3 rounded-full shadow hover:bg-pink-600 transition " data-aos="fade-right" data-aos-delay="200">
+        SHOP NOW
+      </button>
+    </div>
+
+    <!-- Image -->
+    <div class="w-full md:w-1/2 mb-8 md:mb-0">
+    <img src="pexels-rdne-6784691.jpg" alt="Cosmetics Banner" class="w-full rounded-xl shadow-lg shadow-pink-400" data-aos="fade-left" data-aos-delay="200"/>
+      <!-- <img src="6bc8c83f-d305-4f50-8a02-a58f2cbb698b.jpg" alt="Cosmetics Banner" class="w-full rounded-xl shadow-lg" /> -->
+    </div>
+  </div>
+</section>
+
+
+<section class=" py-16 px-6" id="services">
+  <div class="max-w-7xl mx-auto text-center">
+    <h2 class="text-4xl font-bold text-pink-800 mb-4">Our Products</h2>
+    <p class="text-pink-600 mb-10">Explore our range of premium cosmetics</p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      
+      <!-- Product 1 -->
+      <div class=" bg-white p-6 rounded-2xl shadow-lg hover:shadow-pink-200  transition" data-aos="fade-up">
+        <img src="lipstick.jpg" alt="Lipstick" class="w-full rounded-lg mb-4">
+        <h3 class="text-xl font-semibold text-pink-700">Matte Lipsticks</h3>
+        <p class="text-sm text-gray-500">Long-lasting color in every shade.</p>
+       <p class="product-btn"> <button class="inline-block bg-pink-800 text-white px-6 py-3 mt-5 rounded-full shadow hover:bg-pink-600 transition ">Shop Now</button></p>
+       
+      </a>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-pink-200 transition" data-aos="fade-up" data-aos-delay="100">
+        <img src="pexels-n-voitkevich-8558492.jpg" alt="Foundation" class="w-full h-[590px] rounded-lg mb-4">
+        <h3 class="text-xl font-semibold text-pink-700">Skin Foundation</h3>
+        <p class="text-sm text-gray-500">Smooth coverage for all skin types.</p>
+        <p class="product-btn2"> <button class="inline-block bg-pink-800 text-white px-6 py-3 mt-5 rounded-full shadow hover:bg-pink-600 transition ">Shop Now</button></p>
+       
+      
+      </div>
+
+      <!-- Product 3 -->
+      <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-pink-200 transition" data-aos="fade-up" data-aos-delay="200">
+        <img src="eye shaddow.jpg" alt="Eyeshadow" class="w-full h-[590px] rounded-lg mb-4">
+        <h3 class="text-xl font-semibold text-pink-700">Eyeshadow Palette</h3>
+        <p class="text-sm text-gray-500">Vibrant colors for every occasion.</p>
+       <p class="product-btn3">  <button class="inline-block bg-pink-800 text-white px-6 py-3 mt-5 rounded-full shadow hover:bg-pink-600 transition ">Shop Now</button> </p>
+      
+      </div>
+
+      <!-- Add more product cards as needed -->
+
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class=" py-16 px-4 sm:px-6 lg:px-8" id="about" data-aos="fade-up">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <!-- Image -->
+    <div>
+          <img src="6bc8c83f-d305-4f50-8a02-a58f2cbb698b.jpg" alt="Cosmetic Banner" class="w-half h-[400px] rounded-x2 shadow-pink-500 shadow-lg">
+     
+         
+    </div>
+    <!-- Text Content -->
+    <div>
+      <h2 class="text-4xl font-bold text-pink-800 mb-4">About <span class="text-pink-500">Peace</span></h2>
+      <p class="text-pink-700 text-lg leading-relaxed">
+        At <strong>Peace</strong>, we believe that beauty begins with self-love. Our cosmetic products are crafted with care, combining natural ingredients and modern science to bring you the best in skincare and beauty.
+      </p>
+      <p class="text-pink-700 mt-4">
+        Whether you're seeking a radiant glow, perfect finish, or gentle skincare, Peace offers a wide range of products that celebrate your natural beauty.
+      </p>
+      <a href="#products" class="mt-6 inline-block bg-pink-800 text-white px-6 py-3 rounded-full shadow hover:bg-pink-500 transition duration-300">
+       <p id="explore"> Explore Our Products</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Us Section -->
+<section class=" py-16 px-4 sm:px-6 lg:px-8 shadow-pink-200" id="contact" data-aos="fade-up">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-4xl font-bold text-pink-800 mb-4">Contact <span class="text-pink-500">Us</span></h2>
+    <p class="text-pink-800 mb-10">
+      Have questions, feedback, or just want to say hello? We're here for you. Reach out and let's connect!
+    </p>
+  </div>
+
+  <form class="max-w-3xl mx-auto grid grid-cols-1 gap-6 bg-pink-50 p-8 rounded-2xl shadow-lg">
+    <div>
+      <label class="block text-sm font-medium text-pink-800">Name</label>
+      <input type="text" placeholder="Your Name" 
+             class="mt-1 block w-full px-4 py-2 rounded-lg border border-pink-200 focus:ring-2 focus:ring-pink-400 focus:outline-none placeholder-pink-400">
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-pink-800">Email</label>
+      <input type="email" placeholder="you@example.com" 
+             class="mt-1 block w-full px-4 py-2 rounded-lg border border-pink-200 focus:ring-2 focus:ring-pink-400 focus:outline-none placeholder-pink-400">
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-pink-800">Message</label>
+      <textarea rows="5" placeholder="Your message..." 
+                class="mt-1 block w-full px-4 py-2 rounded-lg border border-pink-200 focus:ring-2 focus:ring-pink-400 focus:outline-none placeholder-pink-400"></textarea>
+    </div>
+    <div class="text-center">
+      <button type="submit" 
+              class="bg-pink-800 text-white px-6 py-3 rounded-full hover:bg-pink-500 transition duration-300">
+        Send Message
+      </button>
+    </div>
+  </form>
+</section>
+
+<!-- Newsletter Section -->
+<section class="bg-pink-50 py-16 px-4 sm:px-6 lg:px-8" id="subscribe" data-aos="fade-up">
+  <div class="max-w-3xl mx-auto text-center">
+    <h2 class="text-4xl font-bold text-pink-800 mb-4">Stay Connected with <span class="text-pink-500">Peace</span></h2>
+    <p class="text-pink-600 mb-6">
+      Subscribe to our newsletter and be the first to know about new arrivals, exclusive offers, and beauty tips.
+    </p>
+    <form class="mt-6 sm:flex sm:justify-center">
+      <input type="email" placeholder="Enter your email"
+             class="w-full sm:w-2/3 px-6 py-3 rounded-full border border-pink-200 
+                    placeholder-pink-400 focus:outline-none focus:ring-2 
+                    focus:ring-pink-400 text-gray-700 mb-4 sm:mb-0">
+      <button type="submit" 
+              class="sm:ml-4 px-6 py-3 bg-pink-800 text-white rounded-full 
+                     hover:bg-pink-600 transition duration-300">
+        Subscribe
+      </button>
+    </form>
+  </div>
+</section>
+
+  <div class="text-pink-900 p-10 text-center rounded">
+  <i id="arrow" class="fa-solid fa-arrow-up"></i>
+  </div>
+
+
+<footer class="bg-pink-800 text-pink-400 py-5 mt-5">
+  <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+
+    <!-- Brand Name -->
+    <div class=" text-pink-400 text-5xl font-bold mb-4 md:mb-0">
+      Peace .
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="flex space-x-6 text-pink-400 text-2xl">
+      <a href="#" class="hover:text-pink-100 font-bold transition-all duration-200">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" class="hover:text-pink-100 font-bold  duration-200">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+      <a href="#" class="hover:text-pink-100 font-bold transition-all duration-200">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="#" class="hover:text-pink-100 font-bold transition-all duration-200">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Optional bottom text -->
+  <div class="text-center  text-2xl text-pink-400 font-bold mt-4">
+    © 2025 Peace Cosmetics. All rights reserved.
+  </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="peace.js"></script>
+</body>
+</html>
